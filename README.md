@@ -1,4 +1,8 @@
-![Build](https://github.com/ioquake/ioq3/workflows/Build/badge.svg)
+There's nothing interesting happening here! This is just for personal use to keep vanilla ioq3 updated for playing Urban Terror 4.1 - I cannot gaurantee it all works as I only play icy/jump maps alone.
+
+```
+    make PLATFORM=mingw32 ARCH=x86_64 -j8
+```
 
                    ,---------------------------------------.
                    |   _                     _       ____  |

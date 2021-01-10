@@ -22,7 +22,7 @@ PKG_DATA_NAME=ioquake3d
 PKG_DEMO_NAME=ioquake3m
 BUILD_DATE="`/usr/bin/date '+%Y%m%d%H%M%S'`"
 SVNVERSION=/usr/local/bin/svnversion
-BUILD_VERSION="1.36_SVN"
+BUILD_VERSION="4.1.1_GIT"
 if [ -x "$SVNVERSION" ]; then
 	SVN_BANNER=`$SVNVERSION ${MOUNT_DIR}|sed -e 's/S$//' -e 's/M$//' `
 	BUILD_VERSION="${BUILD_VERSION}${SVN_BANNER}"
